@@ -57,11 +57,11 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} className="text-blue-400 flex-shrink-0" />
-                <span>+237 687 56 79 81</span>
+                <a href="Tel:+237687567981">+237 687 56 79 81</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={18} className="text-blue-400 flex-shrink-0" />
-                <span>coderiseacademy04@gmail.com</span>
+                <a href="mailto:coderiseacademy04@gmail.com">coderiseacademy04@gmail.com</a>
               </li>
             </ul>
           </div>
