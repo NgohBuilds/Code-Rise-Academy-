@@ -20,9 +20,9 @@ export function HomePage() {
   const programs = [
     {
       icon: Code2,
-      title: "Développement Web",
+      title: "Développement Front-End ",
       description: "Maîtrisez les technologies frontend, le design responsive et les pratiques web modernes.",
-      topics: ["HTML & CSS", "JavaScript", "React", "Accessibilité"],
+      topics: ["HTML5 & CSS3", "JavaScript", "TailwindCSS", "React"],
       color: "from-[#005A9C] to-[#1A9BD7]",
     },
     {
@@ -50,7 +50,7 @@ export function HomePage() {
     {
       icon: Rocket,
       title: "Compétences Pratiques",
-      description: "60% de pratique garantit que vous êtes prêt pour le marché du travail.",
+      description: "80% de pratique garantit que vous êtes prêt pour le marché du travail.",
     },
     {
       icon: Award,
@@ -72,6 +72,18 @@ export function HomePage() {
       avatar: "SN",
     },
     {
+      name: "Kemayou Victorien",
+      role: "Etudiant",
+      content: "Une excellente pedagogie et une convivialité qui nous met dans d'excellentes conditions de travail. Je recommande vivement .",
+      avatar: "KV",
+    },
+    {
+      name: "Sarah Njoya",
+      role: "Développeuse Frontend",
+      content: "CodeRise a transformé ma carrière. L'approche basée sur les projets m'a donné de vrais éléments de portfolio et de la confiance.",
+      avatar: "SN",
+    },
+    {
       name: "Kevin Tagne",
       role: "Développeur Full Stack",
       content: "Meilleur investissement que j'ai fait. Le mentorat et la pratique m'ont préparé pour de vrais environnements de travail.",
@@ -86,10 +98,9 @@ export function HomePage() {
   ];
 
   const stats = [
-    { number: "500+", label: "Étudiants Formés" },
-    { number: "1000+", label: "Projets Réalisés" },
-    { number: "95%", label: "Taux de Réussite" },
-    { number: "50+", label: "Partenaires Industriels" },
+    { number: "22+", label: "Étudiants Formés" },
+    { number: "15+", label: "Projets Réalisés" },
+    { number: "100%", label: "Taux de Réussite" },
   ];
 
   return (
@@ -112,7 +123,7 @@ export function HomePage() {
               </h1>
 
               <p className="text-xl text-blue-100 mb-8 max-w-xl">
-                Transformez votre avenir avec l'apprentissage par projet. Nous combinons 40% de théorie avec 60% de pratique pour vous rendre prêt pour l'emploi.
+                Transformez votre avenir avec l'apprentissage par projet. Nous combinons 20% de théorie avec 80% de pratique pour vous rendre prêt pour l'emploi.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -139,12 +150,12 @@ export function HomePage() {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
                       <Code2 className="text-[#1A9BD7] mb-3" size={32} />
-                      <div className="text-3xl font-bold mb-1">40%</div>
+                      <div className="text-3xl font-bold mb-1">20%</div>
                       <div className="text-sm text-blue-200">Théorie</div>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
                       <Target className="text-green-300 mb-3" size={32} />
-                      <div className="text-3xl font-bold mb-1">60%</div>
+                      <div className="text-3xl font-bold mb-1">80%</div>
                       <div className="text-sm text-blue-200">Pratique</div>
                     </div>
                     <div className="col-span-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
@@ -285,7 +296,7 @@ export function HomePage() {
                 Notre Méthode d'Apprentissage
               </h2>
               <p className="text-xl text-gray-700 mb-8">
-                Nous croyons en l'apprentissage par la pratique. Notre approche unique 40/60 combine les fondements théoriques avec une pratique intensive.
+                Nous croyons en l'apprentissage par la pratique. Notre approche unique 20/80 combine les fondements théoriques avec une pratique intensive.
               </p>
 
               <div className="space-y-6">
@@ -294,7 +305,7 @@ export function HomePage() {
                     <BookOpen className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">40% Théorie</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">20% Théorie</h3>
                     <p className="text-gray-600">Connaissances fondamentales solides et compréhension conceptuelle.</p>
                   </div>
                 </div>
@@ -304,8 +315,8 @@ export function HomePage() {
                     <Code2 className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">60% Pratique</h3>
-                    <p className="text-gray-600">Projets réels et expérience pratique de codage.</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">80% Pratique</h3>
+                    <p className="text-gray-600">Projets réels et expérience pratique de codage .</p>
                   </div>
                 </div>
 
@@ -326,16 +337,16 @@ export function HomePage() {
               <div className="relative bg-white rounded-3xl p-8 shadow-xl">
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
-                    <div className="text-4xl font-bold text-[#005A9C]">40%</div>
+                    <div className="text-4xl font-bold text-[#005A9C]">20%</div>
                     <div className="flex-1">
-                      <div className="h-8 bg-gradient-to-r from-[#005A9C] to-[#1A9BD7] rounded-full" style={{ width: '40%' }}></div>
+                      <div className="h-8 bg-gradient-to-r from-[#005A9C] to-[#1A9BD7] rounded-full" style={{ width: '20%' }}></div>
                     </div>
                     <div className="text-gray-600">Théorie</div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="text-4xl font-bold text-green-600">60%</div>
+                    <div className="text-4xl font-bold text-green-600">80%</div>
                     <div className="flex-1">
-                      <div className="h-8 bg-gradient-to-r from-green-600 to-green-400 rounded-full" style={{ width: '60%' }}></div>
+                      <div className="h-8 bg-gradient-to-r from-green-600 to-green-400 rounded-full" style={{ width: '80%' }}></div>
                     </div>
                     <div className="text-gray-600">Pratique</div>
                   </div>
@@ -347,7 +358,7 @@ export function HomePage() {
                     <h4 className="font-semibold text-gray-900">Résultats Réels</h4>
                   </div>
                   <p className="text-gray-700">
-                    Les étudiants complètent 10-15 projets de portfolio pendant la formation, garantissant qu'ils diplôment prêts pour l'emploi.
+                    Les étudiants complètent 5-10 projets de portfolio pendant la formation, garantissant qu'ils sont compétents et  prêts pour l'emploi.
                   </p>
                 </div>
               </div>
