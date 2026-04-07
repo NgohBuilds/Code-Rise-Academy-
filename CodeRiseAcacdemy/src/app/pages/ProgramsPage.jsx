@@ -64,14 +64,14 @@ export function ProgramsPage() {
       icon: Terminal,
       title: "Python",
       description: "Langage polyvalent pour le web, l'automatisation et les données",
-      skills: ["Bases Python", "Programmation Orientée Objet", "Bibliothèques", "Scripts d'Automatisation"],
+      skills: ["Bases Python", "Programmation Orientée Objet", "Bibliothèques", "Gestion des fichiers"],
       duration: "1 mois",
     },
     {
       icon: Database,
       title: "Programmation C",
       description: "Construisez une base solide en programmation système",
-      skills: ["Gestion de la Mémoire", "Pointeurs & Structures de Données", "Algorithmes", "Programmation Système"],
+      skills: [ "Algorithmes","Bases du C","Gestion de la Mémoire", "Pointeurs & Structures de Données"],
       duration: "1 mois",
     }
   ];
@@ -102,7 +102,7 @@ export function ProgramsPage() {
       icon: Settings,
       title: "Automatisation",
       description: "Automatisez les tâches répétitives et connectez vos outils",
-      skills: ["Zapier", "Make"],
+      skills: ["Zapier", "Make" , "Bonnes pratiques" , "Analyse des besoins"],
       duration: "1 Mois",
     },
   ];
@@ -122,7 +122,7 @@ export function ProgramsPage() {
     },
     {
       icon: Keyboard,
-      title: "Maîtrise de la Frappe",
+      title: "Dactylographie",
       description: "Augmentez la productivité avec une vitesse de frappe accrue",
       topics: ["Frappe Tactile", "Développement de Vitesse", "Entraînement à la Précision", "Raccourcis Clavier"],
     },
@@ -193,7 +193,7 @@ export function ProgramsPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Users size={18} />
-                <span>500+ Étudiants</span>
+                <span>22+ Étudiants</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award size={18} />
@@ -201,7 +201,7 @@ export function ProgramsPage() {
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <TrendingUp size={18} />
-                <span>95% Taux de Réussite</span>
+                <span>100% Taux de Réussite</span>
               </div>
             </div>
           </div>

@@ -415,7 +415,7 @@ export function HomePage() {
             Prêt à Grandir dans la Tech ?
           </h2>
           <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-            Rejoignez des centaines d'étudiants qui ont transformé leur carrière grâce à l'apprentissage pratique par projet.
+            Rejoignez d'autres étudiants qui ont transformé leur carrière grâce à l'apprentissage pratique par projet.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -8,7 +8,6 @@ import {
   MessageSquare,
   Clock,
   Facebook,
-  Twitter,
   Instagram,
   Linkedin,
   CheckCircle2,
@@ -275,25 +274,20 @@ export function ContactPage() {
                 <p className="text-gray-600 mb-6">Restez connectés sur les réseaux sociaux</p>
                 <div className="flex gap-3">
                   <a
-                    href="#"
+                    href="https://www.facebook.com/share/1Non7fePap/"
                     className="w-12 h-12 bg-white hover:bg-[#005A9C] hover:text-white text-[#005A9C] rounded-xl flex items-center justify-center transition-all shadow-sm"
                   >
                     <Facebook size={20} />
                   </a>
+                 
                   <a
-                    href="#"
-                    className="w-12 h-12 bg-white hover:bg-blue-400 hover:text-white text-blue-400 rounded-xl flex items-center justify-center transition-all shadow-sm"
-                  >
-                    <Twitter size={20} />
-                  </a>
-                  <a
-                    href="#"
+                    href="https://www.instagram.com/coderise_academy?igsh=MWNmNWQ2b3AzMTk5cw%3D%3D&utm_source=qr"
                     className="w-12 h-12 bg-white hover:bg-pink-600 hover:text-white text-pink-600 rounded-xl flex items-center justify-center transition-all shadow-sm"
                   >
                     <Instagram size={20} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/coderise-academy04/"
                     className="w-12 h-12 bg-white hover:bg-[#005A9C] hover:text-white text-[#005A9C] rounded-xl flex items-center justify-center transition-all shadow-sm"
                   >
                     <Linkedin size={20} />

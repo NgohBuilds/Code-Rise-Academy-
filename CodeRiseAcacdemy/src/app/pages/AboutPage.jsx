@@ -98,8 +98,8 @@ export function AboutPage() {
 
       {/* Mission */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-full lg:w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center">
             <div>
               <div className="inline-flex items-center gap-2 bg-blue-100 text-[#005A9C] px-4 py-2 rounded-full mb-6">
                 <Target size={18} />
@@ -123,25 +123,6 @@ export function AboutPage() {
                     {tag}
                   </div>
                 ))}
-              </div>
-            </div>
-
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#1A9BD7] to-purple-500 rounded-3xl blur-3xl opacity-20"></div>
-              <div className="relative bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 shadow-xl">
-                <div className="grid grid-cols-2 gap-4">
-                  {stats.map((stat, index) => (
-                    <div
-                      key={index}
-                      className="bg-white rounded-2xl p-6 text-center shadow-sm"
-                    >
-                      <div className="text-3xl font-bold text-[#005A9C] mb-2">
-                        {stat.number}
-                      </div>
-                      <div className="text-gray-600">{stat.label}</div>
-                    </div>
-                  ))}
-                </div>
               </div>
             </div>
           </div>

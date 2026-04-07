@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import logo from "../assets/codeRiseAcademyLogo.jpeg"
 export function Footer() {
   return (
@@ -18,19 +18,16 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm mb-6">
-              Construire de vraies compétences pour l'avenir. Apprentissage par projet avec 40% de théorie et 60% de pratique.
+              Construire de vraies compétences pour l'avenir. Apprentissage par projet avec 20% de théorie et 80% de pratique.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="https://www.facebook.com/share/1Non7fePap/" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="https://www.instagram.com/coderise_academy?igsh=MWNmNWQ2b3AzMTk5cw%3D%3D&utm_source=qr" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="https://www.linkedin.com/company/coderise-academy04/" className="w-9 h-9 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                 <Linkedin size={18} />
               </a>
             </div>
@@ -49,17 +46,7 @@ export function Footer() {
           </div>
 
           {/* Programs */}
-          <div>
-            <h3 className="text-white font-semibold mb-4">Nos Programmes</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Développement Web</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Programmation</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Compétences Numériques</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Gestion de Projet</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">Développement Personnel</a></li>
-            </ul>
-          </div>
-
+          
           {/* Contact */}
           <div>
             <h3 className="text-white font-semibold mb-4">Contactez-Nous</h3>

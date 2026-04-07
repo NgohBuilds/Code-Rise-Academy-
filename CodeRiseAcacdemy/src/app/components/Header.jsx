@@ -24,7 +24,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div>
-              <img src={logo} width={40} height={40}  className="object-cover" alt="codeRiseLogo" />
+              <img src={logo} width={40} height={40}  className="object-cover rounded-full" alt="codeRiseLogo" />
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-xl text-gray-900">CodeRise</span>
