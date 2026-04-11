@@ -65,12 +65,7 @@ export function HomePage() {
   ];
 
   const testimonials = [
-    {
-      name: "Sarah Njoya",
-      role: "Développeuse Frontend",
-      content: "CodeRise a transformé ma carrière. L'approche basée sur les projets m'a donné de vrais éléments de portfolio et de la confiance.",
-      avatar: "SN",
-    },
+
     {
       name: "Kemayou Victorien",
       role: "Etudiant",
@@ -88,6 +83,12 @@ export function HomePage() {
       role: "Développeur Full Stack",
       content: "Meilleur investissement que j'ai fait. Le mentorat et la pratique m'ont préparé pour de vrais environnements de travail.",
       avatar: "KT",
+    },
+        {
+      name: "Gabriel Dooh",
+      role: "Développeuse Frontend",
+      content: "Une bonne pedagogie",
+      avatar: "GD",
     },
     {
       name: "Grace Mbah",
